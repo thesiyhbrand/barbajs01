@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "fira sans";
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#nav-lft{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-lft img{
+    margin-right: 1vw;
+    width: 1.4vw;
+}
+
+#nav-cntr{
+    display: flex;
+    align-items: center;
+}
+
+#nav-cntr a{
+    text-decoration: none;
+    padding: 2vw;
+    font-size: 1.2vw;
+    color: #333;
+}
+
+#nav-rght{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-rght i{
+    font-size: 1.1vw;
+    padding: 1vw;
+}
+
+#main{
+    width: 100vw;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main h1{
+    font-size: 5vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+}
+
+#main img{
+    position: absolute;
+    width: 20vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1.2s;
+}
+
+#main .circle{
+    position: absolute;
+    margin-top: -5%;
+    margin-left: 3%;
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(255, 236, 219);
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+#circle2{
+    margin-top: 0% !important;
+    margin-left: 0% !important;
+    background-color: rgb(220, 255, 199) !important;
+}
+
+#circle3{
+    margin-top: 0% !important;
+    margin-left: 0% !important;
+    background-color: rgb(255, 215, 252) !important;
+}
+
+#phool3{
+    width: 30vw !important;
+}
+
+#main:hover img{
+    transform: scale(1.2);
+}
+#main:hover h1{
+    transform: scale(1.2);
+}
+#main:hover .circle{
+    transform: scale(1.2);
+}
+
+#footer{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#rght-footer{
+    display: flex;
+    align-items: center;
+}
+
+#rght-footer .icon-cir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    background-color: rgb(212, 212, 212);
+}
+
+#rght-footer .icon-cir i{
+    font-size: 1.2vw;
+}
